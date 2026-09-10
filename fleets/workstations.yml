@@ -189,7 +189,7 @@ software:
     #     - "x86-based Windows hosts"
 
   packages: # Custom packages (if any)
-    - path: ../platform/macos/software/zoom.yml
+    - path: ../platforms/macos/software/zoom.yml
       self_service: true
       setup_experience: true
       categories:
