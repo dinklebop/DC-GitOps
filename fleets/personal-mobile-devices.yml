@@ -112,6 +112,9 @@ software:
   packages:
     - path: ../platforms/windows/software/cloudflare-warp.yml
       self_service: false
+  fleet_maintained_apps:
+    - slug: ghostty/darwin
+      self_service: true
 labels:
   - name: C-Suite
     description: Hosts belonging to the C-suite
