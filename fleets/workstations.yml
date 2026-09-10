@@ -106,6 +106,9 @@ controls:
   # windows_updates:
   #   deadline_days: 7
   #   grace_period_days: 2
+  ipados_updates:
+    deadline: "2026-09-30"
+    minimum_version: "26.5"
 
   ###########################################################
   # Script library
