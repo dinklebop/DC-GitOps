@@ -109,6 +109,9 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
+  packages:
+    - path: ../platforms/windows/software/cloudflare-warp.yml
+      self_service: false
 labels:
   - name: C-Suite
     description: Hosts belonging to the C-suite
