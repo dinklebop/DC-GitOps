@@ -108,7 +108,7 @@ software:
     #   self_service: true
     #   setup_experience: true
 labels:
-  - name: C-suite
+  - name: C-Suite
     description: Hosts belonging to the C-suite
     label_membership_type: manual
     hosts:
