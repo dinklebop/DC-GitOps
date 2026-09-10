@@ -67,7 +67,7 @@ controls:
   ###########################################################
   apple_settings:
     configuration_profiles:
-      - path: /Users/milk/src/public/DC-GitOps/platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           - Department - Engineering
       # - paths: ../platforms/macos/declaration-profiles/*.json
